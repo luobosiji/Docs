@@ -1,3 +1,5 @@
+* 其它知识
+  * [git相关](other/git.md)
 * 归档
   * [知识杂项](document/知识杂项.md)
   * [00-前端技术](document/00-前端技术.md)
