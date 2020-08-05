@@ -6,4 +6,8 @@
   * [01-职业规划](document/01-职业规划.md)
   * [02-编程语言通识](document/02-编程语言通识.md)
   * [03-JavaScript词法&类型](document/03-JavaScript词法&类型.md)
+  * [04-JavaScript表达式&类型](document/04-JavaScript表达式&类型.md)
+  * [05-JavaScript语句&对象](document/05-JavaScript语句&对象.md)
+  * [06-JavaScript结构化](document/06-JavaScript结构化.md)
+  * [07-浏览器工作原理](document/07-浏览器工作原理.md)
 * [回到首页](/)
