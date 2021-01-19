@@ -184,6 +184,9 @@ class TrunkedBodyParser{
       }else{
         this.length *= 10 //10进制的末尾加一位 所以乘10
         this.length += Number(char)//char.charCodeAt(0) - '0'.charCodeAt(0)
+
+        // this.length *=16
+        // this.length += parseInt(char, 16)
       }
     }else if(this.current === this.WAITING_LENGTH_LINE_END){
       if(char === '\n'){

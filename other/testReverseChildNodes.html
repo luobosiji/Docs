@@ -1,0 +1,19 @@
+<div id="a">
+  <span>1</span>
+  <p>2</p>
+  <div>3</div>
+  <a>4</a>
+</div>
+
+<script>
+  // 翻转标签
+  let element = document.getElementById('a')
+  function reverseChildren(element){
+    var l = element.childNodes.length
+    while(l--){
+      // console.log(element.childNodes[l])
+      element.appendChild(element.childNodes[l])
+    }
+  }
+  reverseChildren(element)
+</script>

@@ -1,0 +1,19 @@
+<div id="x">
+  <div>1</div>
+  <div>2</div>
+</div>
+<div id="b">
+</div>
+
+
+<script>
+  // appendChild 会把 x中的 2 挪到b里  而不是另外在加上一个
+  // appendChild默认 会 先删除x中的2 在添加到 b中
+  document.getElementById('b').appendChild(document.getElementById('x').children[1])
+
+  var x = document.getElementById('x')
+  var b = document.getElementById('b')
+  while(x.children.length){
+    b.appendChild(x.children[0])
+  }
+</script>

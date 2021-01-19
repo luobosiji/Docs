@@ -1,0 +1,26 @@
+
+<script>
+
+// （关键字）|(空格)|（标识符）|(符号)
+var regexp = /([0-9\.]+)|([ ]+)|([\r\n]+)|([+])|([-])|([*])|([/])/g
+
+var dictionary = ['Number','whitespace','Lineterminator','+','-','*','/']
+
+function tokenize(source){
+  var result = null
+  var lastIndex = 0
+  do{
+    lastIndex = regexp.lastIndex
+    result = regexp.exec(source)
+    if(!result) break
+    for (let i = 0; i < dictionary.length; i++) {
+      if(result[i+1])
+        console.log(dictionary[i])
+    }
+    console.log(result[0])
+  }while(result)
+
+}
+
+tokenize('1024 + 10 * 25')
+</script>

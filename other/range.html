@@ -1,0 +1,33 @@
+<div id="a">
+  <span>1</span>
+  <p>2</p>
+  <div>3</div>
+  <a>4</a>
+</div>
+
+<script>
+  let element = document.getElementById('a')
+
+  function reverseChildren(element){
+    let range = new Range()
+    // element 子节点将成为当前范围的内容的节点。
+    range.selectNodeContents(element)
+    // 删除文档内容，并以 DocumentFragment 对象的形式返回它
+    // DocumentFragment，文档片段接口，一个没有父对象的最小文档对象。
+    // 它被作为一个轻量版的 Document 使用，就像标准的document一样，存储由节点（nodes）组成的文档结构。
+    // 与document相比，最大的区别是DocumentFragment 不是真实 DOM 树的一部分，它的变化不会触发 DOM 树的重新渲染，且不会导致性能等问题。
+    let fragment = range.extractContents()
+    // console.log(fragment)
+    var l = fragment.childNodes.length
+    // console.log(l)
+    while(l--){
+      // console.log(fragment.childNodes[l])
+      fragment.appendChild(fragment.childNodes[l])
+    }
+    element.appendChild(fragment)
+
+  }
+
+  reverseChildren(element)
+
+</script>
