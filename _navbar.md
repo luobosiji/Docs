@@ -1,7 +1,14 @@
 * 其它知识
-  * [git相关](other/git.md)
+  * [git](other/git.md)
+  <!-- * [:us:, :uk:](/) -->
+
 * 归档
-  * [知识杂项](document/知识杂项.md)
+  * [基础知识](docs/Base/00.知识架构.md)
+* [回到首页](/)
+
+
+
+  <!-- * [知识杂项](document/知识杂项.md)
   * [00-前端技术](document/00-前端技术.md)
   * [01-职业规划](document/01-职业规划.md)
   * [02-编程语言通识](document/02-编程语言通识.md)
@@ -9,5 +16,4 @@
   * [04-JavaScript表达式&类型](document/04-JavaScript表达式&类型.md)
   * [05-JavaScript语句&对象](document/05-JavaScript语句&对象.md)
   * [06-JavaScript结构化](document/06-JavaScript结构化.md)
-  * [07-浏览器工作原理](document/07-浏览器工作原理.md)
-* [回到首页](/)
+  * [07-浏览器工作原理](document/07-浏览器工作原理.md) -->

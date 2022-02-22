@@ -17,14 +17,18 @@
     window.$docsify = {
       // el: '#main'
       loadNavbar:true,
+      loadSidebar: true,
+      subMaxLevel: 6,
+      autoHeader: true,
       coverpage: true, //封面
       onlyCover:true, // 封面和主页分离 默认是向下滚动
       // logo: '/_media/icon.svg', //侧边栏logo
-      // homepage: 'home.md', //默认是readme
+      homepage: 'home.md', //默认是readme
       // name: 'docsify', //侧边栏名称
       // nameLink: '/',
-      // repo: 'https://github.com/docsifyjs/docsify/', //右上角 github
-      // themeColor: '#3F51B5', //主题色
+      repo: 'https://github.com/luobosiji/luobosiji.github.io', //右上角 github
+      themeColor: '#3F51B5', //主题色
+      notFoundPage: true, // 加载 _404.md
       search:{
         paths: [
           '/',
@@ -45,5 +49,6 @@
   <script src="res/docsify.min.js"></script>
   <script src="res/search.min.js"></script>
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script> -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script> -->
 </body>
 </html>
