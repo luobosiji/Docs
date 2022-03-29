@@ -14,7 +14,7 @@
   - id_rsa (私钥)
   - id_rsa.pub（公钥）
   - 新建一个新的SSH key
-    - `ssh-keygen -t rsa -b 4096 -C "uestchan@sina.com"`
+    - `ssh-keygen -t rsa -C "xx@xx.com"`
     -  id_rsa.pub 拷贝到 github  新建的 SSH keys 中
     -  修改私钥密码 
        -  切换到~/.ssh目录：cd ~/.ssh，然后执行ssh-keygen -p -f your_key_filename。然后会提示输入旧密码、然后再输入两次新密码，就修改成功了，如果没有-f your_key_filename，则默认修改的密钥文件是id_rsa。注意：直接回车代表密码为空。

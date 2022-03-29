@@ -1,8 +1,8 @@
-* 其它知识
-  * [git](other/git.md)
-  <!-- * [:us:, :uk:](/) -->
-
+<!-- * [:us:, :uk:](/) -->
+* 知识梳理
+  * [promise](zhaowa/01.promise/promise.md)
 * 归档
+  * [git](other/git.md)
   * [基础知识](docs/Base/00.知识架构.md)
 * [回到首页](/)
 
