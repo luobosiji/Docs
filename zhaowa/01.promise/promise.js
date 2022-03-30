@@ -1,30 +1,3 @@
-# Promise规范及应用
-
-
-## Promise States
-- pending 初始状态，可改变
-  - resolve -> fulfilled
-  - reject -> rejected
-- fulfilled 最终态, 不可变
-  - 必须拥有value
-- rejected  最终态，不可变
-  - 必须拥有一个reason
-
-## then
-> Promise 提供一个then方法，用来访问最终的结果
-
-- `promise.then(onFulfilled, onRejected)`
-  - `onFulfilled | onRejected`必须是函数，如果不是，应该被忽略
-    - 应该是微任务 通过`queueMicrotask` 来实现
-  - `states = fulfilled` 时 应该调用 `onFulfilled`,参数是 value, 且只调用一次
-  - `states = rejected` 时 应该调用 `onRejected`,参数是 reason, 且只调用一次
-- `then`方法可被多次调用
-  - 所有`onFulfilled | onRejected`都要按`then`的顺序执行(此时需要数组来存储回调)
-- `then` 返回一个
-
-
-### 实现一个Promise
-```javascript
 const PENDING = 'pending'
 const FULFILLED = 'fulfilled'
 const REJECTED = 'rejected'
@@ -187,8 +160,3 @@ class MyPromise{
     })
   }
 }
-
-```
-
-
-
