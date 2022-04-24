@@ -1,1 +1,0 @@
-<!-- * [git](other/git.md) -->

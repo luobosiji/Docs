@@ -1,3 +1,6 @@
+# 手写Promise
+
+```javascript
 const PENDING = 'pending'
 const FULFILLED = 'fulfilled'
 const REJECTED = 'rejected'
@@ -182,3 +185,4 @@ class MyPromise {
     })
   }
 }
+```
