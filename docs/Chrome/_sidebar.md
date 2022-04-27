@@ -3,3 +3,4 @@
 * [渲染流程](/docs/Chrome/渲染流程.md)
 * [浏览器中 JavaScript 执行机制](/docs/Chrome/Js执行机制.md)
 * [V8工作原理](/docs/Chrome/V8工作原理.md)
+* [浏览器的页面循环系统](/docs/Chrome/事件循环.md)
