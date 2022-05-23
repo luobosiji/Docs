@@ -7,6 +7,7 @@
 * 归档
   * [git](other/git.md)
   * [基础知识](docs/Base/00.知识架构.md)
+  * [ReactHooks](docs/ReactHooks/_sidebar.md)
   * [Chrome](docs/Chrome/_sidebar.md)
   * [数据结构与算法](docs/Algorithm/_sidebar.md)
 * [回到首页](/)

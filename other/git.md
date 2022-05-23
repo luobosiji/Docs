@@ -4,6 +4,7 @@
 > 
 > [文档](https://git-scm.com/book/zh/v2)
 
+
 ## 设置git信息
 - `git config --global user.name "庞军豪"` 
 - `git config --global user.email "junhaopang@caixin.com"`
@@ -196,3 +197,11 @@
 - `git reset --soft HEAD~2`
   - 将 HEAD 分支移动到一个旧一点的提交上（即你想要保留的最近的提交）
   - 再次运行 git commit
+
+
+## 开发流程
+- 创建新的功能分支，用于发布分支
+  - `git checkout -b new_branch`
+- 合并分支
+  - `git pull`
+  - `git merge --no-ff new_branch`

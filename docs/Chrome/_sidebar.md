@@ -4,3 +4,4 @@
 * [浏览器中 JavaScript 执行机制](/docs/Chrome/Js执行机制.md)
 * [V8工作原理](/docs/Chrome/V8工作原理.md)
 * [浏览器的页面循环系统](/docs/Chrome/事件循环.md)
+* [开发者工具](/docs/Chrome/%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7.md)
